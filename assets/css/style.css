@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing :border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,24 +19,20 @@ header {
   flex-wrap: wrap;
 }
 
-header h1  {
-  font-weight :bold;
+header h1 {
+  font-weight: bold;
   font-size: 36px;
   color: #fce138;
   margin: 0;
-
-  
 }
 
 header a {
   text-decoration: none;
-  color : #fce138;
-
+  color: #fce138;
 }
 
 header nav {
   margin: 7px 0;
-  
 }
 
 header nav ul {
@@ -47,44 +43,41 @@ header nav ul {
   list-style: none;
 }
 
-
-
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
 
- footer {
-   background: #fce138;
-   width: 100%;
-   padding: 20px 35px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- }
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
- footer h2 {
-   color: #024e76;
-   font-size: 30px;
-   margin: 0;
- }
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
 
- footer div {
-   line-height: 1.5;
-   text-align: right;
- }
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
 
- footer a {
-   color: #024e76;
- }
+footer a {
+  color: #024e76;
+}
 
- section {
-   padding: 60px;
-   
- }
+section {
+  padding: 60px;
+}
 
- /* Hero Style Start */
+/* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
@@ -92,21 +85,15 @@ header nav ul li a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
-
-
 
 .hero-form {
   border: solid 3px #024e76;
   background-color: #fce138;
-  padding: 20px; 
+  padding: 20px;
   color: #024e76;
-  margin: 3.5%; 
+  margin: 3.5%;
   width: 40%;
-
-
-  
 }
 
 .hero-form h3 {
@@ -115,53 +102,46 @@ header nav ul li a {
 }
 
 .hero-form p {
-margin: 5px 0 15px 0px;
+  margin: 5px 0 15px 0px;
 }
-
 
 .hero-cta {
   width: 35%;
-  text-align: right ;
+  text-align: right;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
   line-height: 1.3;
-
 }
 
-.hero-cta  h2 {
-
+.hero-cta h2 {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
 }
 
-
 .form-input {
   border: 1px solid #024e76;
-  display:block;
-  padding : 7px 15px; 
-  font-size : 16px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px; 
-
+  margin-bottom: 15px;
 }
 
 .hero-form label {
-  margin:0 5px;
+  margin: 0 5px;
 }
 
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
   border: none;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   font-size: 16px;
-
 }
 /* Hero Style End */
-
 
 /*
 .intro h2 {
@@ -184,9 +164,7 @@ margin: 5px 0 15px 0px;
   text-align: center;
 }
 .steps {
-
   background: #fce138;
-
 }
 
 .step-text p {
@@ -196,18 +174,14 @@ margin: 5px 0 15px 0px;
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: #024e76; 
-
+  color: #024e76;
 }
-
-
 
 .step-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
-  align-items :center;
-
+  align-items: center;
 }
 
 .step-img {
@@ -219,12 +193,11 @@ margin: 5px 0 15px 0px;
   flex: 12;
 }
 
-.step-img img{
+.step-img img {
   max-width: 100%;
 }
 
 .step {
-
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -233,9 +206,7 @@ margin: 5px 0 15px 0px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
 }
-
 
 /*
 .steps h2 {
@@ -256,7 +227,6 @@ margin: 5px 0 15px 0px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-
 }
 
 .primary-border {
@@ -274,7 +244,6 @@ margin: 5px 0 15px 0px;
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
-
 }
 
 .primary-border {
@@ -285,26 +254,20 @@ margin: 5px 0 15px 0px;
   border-color: #39a6b2;
 }
 
-
-
 .step h3 {
   color: #39a6b2;
   font-size: 46px;
   flex: 1 30%;
 }
 
-
 .trainer {
-  
   margin: 20px;
   background: #024e76;
   color: #fce138;
   flex: 1;
-  
 }
 
 .trainers {
-
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -314,7 +277,6 @@ margin: 5px 0 15px 0px;
 
 .trainer img {
   width: 100%;
-  
 }
 
 .trainer-bio {
@@ -331,7 +293,6 @@ margin: 5px 0 15px 0px;
 }
 .trainer-bio h3 {
   font-size: 28px;
-  
 }
 
 .trainer-bio h4 {
@@ -342,7 +303,6 @@ margin: 5px 0 15px 0px;
 
 .trainer-bio p {
   font-size: 17px;
-  
 }
 
 /* REACH OUT STYLES START */
@@ -351,12 +311,15 @@ margin: 5px 0 15px 0px;
   margin: 15px;
 }
 
-
 .contact {
-
-  background: #024e76
+  background: #024e76;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .contact h2 {
   color: #fce138;
 }
@@ -366,10 +329,6 @@ margin: 5px 0 15px 0px;
 
 .contact-info div {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
 }
 
 .contact-info h3 {
@@ -377,7 +336,8 @@ margin: 5px 0 15px 0px;
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 16px;
@@ -388,7 +348,8 @@ margin: 5px 0 15px 0px;
   color: #fce138;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid #024376;
   display: block;
   padding: 7px 15px;
@@ -413,4 +374,3 @@ margin: 5px 0 15px 0px;
 }
 
 /* REACH OUT STYLES END */
-
