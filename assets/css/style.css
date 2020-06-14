@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing :border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,65 +14,65 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-header h1  {
-  font-weight :bold;
+header h1 {
+  font-weight: bold;
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 
 header a {
   text-decoration: none;
-  color : #fce138;
-
+  color: #fce138;
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
 header nav ul li {
-  display:inline;
+  display: inline;
 }
+
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 22px;
 }
 
- footer {
-   background: #fce138;
-   width: 100%;
-   padding: 20px 35px;
- }
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 20px 35px;
+}
 
- footer h2 {
-   display: inline;
-   color: #024e76;
-   font-size: 30px;
-   margin: 0;
- }
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
 
- footer div {
-   float: right;
-   line-height: 1.5;
-   text-align: right;
- }
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
 
- footer a {
-   color: #024e76;
- }
+footer a {
+  color: #024e76;
+}
 
- section {
-   padding: 60px;
-   
- }
+section {
+  padding: 60px;
+}
 
- /* Hero Style Start */
+/* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
@@ -82,18 +82,15 @@ header nav ul li a {
   align-items: flex-start;
 }
 
-
-
 .hero-form {
   border: solid 3px #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px; 
+  width: 500px;
   color: #024e76;
   position: absolute;
   bottom: 120px;
-  right: 140px; 
-  
+  right: 140px;
 }
 
 .hero-form h3 {
@@ -102,36 +99,33 @@ header nav ul li a {
 }
 
 .hero-form p {
-margin: 5px 0 15px 0px;
+  margin: 5px 0 15px 0px;
 }
 
 .form-input {
   border: 1px solid #024e76;
-  display:block;
-  padding : 7px 15px; 
-  font-size : 16px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px; 
-
+  margin-bottom: 15px;
 }
 
 .hero-form label {
-  margin:0 5px;
+  margin: 0 5px;
 }
 
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
   border: none;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   font-size: 16px;
-
 }
 
 .hero-cta {
   line-height: 1.2;
-
 }
 /* Hero Style End */
 
@@ -157,12 +151,46 @@ margin: 5px 0 15px 0px;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+
+  /* Step */
 }
 .steps {
   text-align: center;
   background: #fce138;
-
 }
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
+.step h3 {
+  color: #39a6b2;
+  font-size: 46px;
+  flex: 1 30%;
+}
+
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-text {
+  flex: 12;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
 /*
 .steps h2 {
   font-size :55px; 
@@ -174,6 +202,17 @@ margin: 5px 0 15px 0px;
 }
 */
 
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .section-title {
   font-size: 48px;
   color: #024e76;
@@ -181,7 +220,6 @@ margin: 5px 0 15px 0px;
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
-
 }
 
 .primary-border {
@@ -199,7 +237,6 @@ margin: 5px 0 15px 0px;
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
-
 }
 
 .primary-border {
@@ -210,28 +247,8 @@ margin: 5px 0 15px 0px;
   border-color: #39a6b2;
 }
 
-.steps div {
-  margin-bottom: 80px;
-}
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-
-}
-
-.steps h3 {
-  color: #39a6b2;
-  font-size: 46px;
-}
-
-.steps span {
-  font-size: 38px;
-
-}
-
 .trainers {
   text-align: center;
-
 }
 
 .trainer {
@@ -279,7 +296,7 @@ margin: 5px 0 15px 0px;
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
-  background: #024e76
+  background: #024e76;
 }
 
 .contact h2 {
@@ -297,7 +314,6 @@ margin: 5px 0 15px 0px;
   text-align: left;
   margin: 30px 0 0 60px;
   color: white;
-
 }
 
 .contact-info h3 {
@@ -305,7 +321,8 @@ margin: 5px 0 15px 0px;
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -320,14 +337,46 @@ margin: 5px 0 15px 0px;
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero-cta,
+  .hero-form {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
 }
