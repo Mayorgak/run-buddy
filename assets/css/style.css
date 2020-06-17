@@ -395,6 +395,18 @@ section {
   width: 100%;
 }
 
+.trainer-1 {
+  background-image: url("../images/trainer-1.jpg");
+}
+
+.trainer-img {
+width: 100%;
+min-height: 300px;
+display: flex;
+padding: 15px;
+align-items: flex-start;
+}
+
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
