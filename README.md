@@ -3,7 +3,7 @@
 ## Purpose
 A website that offers fitness training services. 
 
-
+![image](https://github.com/Mayorgak/run-buddy/blob/master/assets/images/runbuddy.png)
 
 ## Built With
 * HTML
